@@ -1,0 +1,9 @@
+main: dk.muj.derius.blocks.DeriusBlocks
+name: Derius-Blocks
+version: 1.0_beta
+#website: http://muj.dk/Derius
+authors: [Madus, Ulumulu1510]
+description: §eDerius-Blocks keeps track of placed blocks to be used by Derius
+depend: [MassiveCore]
+softdepend: [Derius-Core]
+load: startup
