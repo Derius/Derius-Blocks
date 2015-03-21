@@ -11,6 +11,7 @@ import com.massivecraft.massivecore.ps.PS;
 import com.massivecraft.massivecore.ps.PSFormat;
 import com.massivecraft.massivecore.ps.PSFormatFormal;
 
+import dk.muj.derius.blocks.entity.MChunkColl;
 import dk.muj.derius.blocks.entity.MConfColl;
 import dk.muj.derius.blocks.integration.derius.IntegrationDerius;
 

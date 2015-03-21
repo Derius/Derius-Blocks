@@ -22,6 +22,8 @@ import org.bukkit.plugin.Plugin;
 import com.massivecraft.massivecore.EngineAbstract;
 import com.massivecraft.massivecore.util.Txt;
 
+import dk.muj.derius.blocks.entity.MChunk;
+import dk.muj.derius.blocks.entity.MChunkColl;
 import dk.muj.derius.blocks.entity.MConf;
 
 /**

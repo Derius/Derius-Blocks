@@ -1,4 +1,4 @@
-package dk.muj.derius.blocks;
+package dk.muj.derius.blocks.entity;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +11,7 @@ import com.massivecraft.massivecore.store.Entity;
 import com.massivecraft.massivecore.util.TimeUnit;
 import com.massivecraft.massivecore.xlib.gson.annotations.SerializedName;
 
-import dk.muj.derius.blocks.entity.MConf;
+import dk.muj.derius.blocks.DeriusBlocks;
 
 /**
  * This class contains information about
@@ -152,7 +152,7 @@ public class MChunk extends Entity<MChunk>
 				// just be temporarily disabled. But we still want to keep it tracked as 'placed'.
 				//.filter(b -> DeriusBlocks.LISTEN_FOR.contains(b.getType()))
 				
-				// We still want is a a PS.
+				// We still want it as a PS.
 				.map(PS::valueOf)
 				.collect(Collectors.toSet());
 		this.setBlocks(result);

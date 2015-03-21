@@ -10,8 +10,8 @@ import com.massivecraft.massivecore.ps.PS;
 import dk.muj.derius.api.DeriusAPI;
 import dk.muj.derius.api.mixin.BlockMixin;
 import dk.muj.derius.blocks.DeriusBlocks;
-import dk.muj.derius.blocks.MChunk;
-import dk.muj.derius.blocks.MChunkColl;
+import dk.muj.derius.blocks.entity.MChunk;
+import dk.muj.derius.blocks.entity.MChunkColl;
 
 public class BlockMixinBlocks implements BlockMixin
 {

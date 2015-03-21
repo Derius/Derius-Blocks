@@ -1,10 +1,13 @@
-package dk.muj.derius.blocks;
+package dk.muj.derius.blocks.entity;
 
 import org.bukkit.block.Block;
 
 import com.massivecraft.massivecore.ps.PS;
 import com.massivecraft.massivecore.store.Coll;
 import com.massivecraft.massivecore.store.MStore;
+
+import dk.muj.derius.blocks.Const;
+import dk.muj.derius.blocks.DeriusBlocks;
 
 public class MChunkColl extends Coll<MChunk>
 {
@@ -17,7 +20,7 @@ public class MChunkColl extends Coll<MChunk>
 	private MChunkColl()
 	{
 		super(Const.COLLECTION_CHUNKS, MChunk.class, MStore.getDb(), DeriusBlocks.get());
-		this.setCreative(false);
+		this.setCreative(true);
 	}
 	
 	// -------------------------------------------- //
